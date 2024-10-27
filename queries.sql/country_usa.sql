@@ -1,0 +1,1 @@
+select * from sales_data_sample where COUNTRY  = "USA";

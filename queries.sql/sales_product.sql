@@ -1,0 +1,3 @@
+SELECT PRODUCTLINE,ROUND(SUM(SALES)) AS product_sales 
+FROM sales_data_sample 
+GROUP BY PRODUCTLINE ORDER BY product_sales DESC;

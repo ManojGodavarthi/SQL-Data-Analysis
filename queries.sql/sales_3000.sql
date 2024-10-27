@@ -1,0 +1,1 @@
+SELECT * FROM sales_data_sample WHERE SALES>3000;
